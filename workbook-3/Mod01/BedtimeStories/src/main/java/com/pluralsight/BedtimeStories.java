@@ -36,6 +36,7 @@ public class BedtimeStories {
                  lineNumber++;
                  System.out.println(lineNumber + ": " + choice);
              }
+             scanner.close();
 
         }
         catch (IOException e) {
