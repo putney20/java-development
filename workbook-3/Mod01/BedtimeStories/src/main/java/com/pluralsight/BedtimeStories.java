@@ -22,13 +22,13 @@ public class BedtimeStories {
             System.out.println("Mary Had a Little Lamb");
             String choice = scanner.nextLine();
 
-             if (choice.equals("Goldilocks and the Three Bears")) {
+             if (choice.equalsIgnoreCase("Goldilocks and the Three Bears")) {
                      scanner = new Scanner(goldilocks);
                  }
-             else if (choice.equals("Hansel and Gretel")) {
+             else if (choice.equalsIgnoreCase("Hansel and Gretel")) {
                  scanner = new Scanner(hansel_and_gretel);
              }
-             else if (choice.equals("Mary Had a Little Lamb")) {
+             else if (choice.equalsIgnoreCase("Mary Had a Little Lamb")) {
                  scanner = new Scanner(mary_had_a_little_lamb);
              }
              while (scanner.hasNextLine()) {
