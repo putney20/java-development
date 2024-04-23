@@ -20,7 +20,8 @@ public class EmployeeDriver {
 
                 Employee employee = new Employee(employeeId, employeeName,payRate, grossPay);
 
-                System.out.printf("Employee ID: %d, Name: %s, Gross Pay: %.2f%n", employee.getEmployeeId(), employee.getEmployeeName(), employee.getGrossPay());
+                System.out.printf("Employee ID: %d, Name: %s, Gross Pay: %.2f%n",
+                        employee.getEmployeeId(), employee.getEmployeeName(), employee.getGrossPay());
 
             }
         } catch (IOException e) {

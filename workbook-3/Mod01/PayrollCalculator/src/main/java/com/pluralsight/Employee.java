@@ -45,16 +45,7 @@ public class Employee {
         this.payRate = payRate;
     }
 
-    @Override
-    public String toString() {
-        return "Employee{" +
-                "employeeId=" + employeeId +
-                ", employeeName='" + employeeName + '\'' +
-                ", hoursWorked=" + hoursWorked +
-                ", payRate=" + payRate +
-                ", grossPay=" + getGrossPay() +
-                '}';
-    }
+
 
     public double getGrossPay() {
         return hoursWorked * payRate;
