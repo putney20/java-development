@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1b2f4b9-343d-4278-b606-a534b7814c64" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Neighborhood-Library" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../workbook-2/TestStatistics/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../workbook-2/TestStatistics/src/main/java/com/pluralsight/TestScores.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../workbook-2/TestStatistics/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../workbook-2/TestStatistics/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mod01/SearchInventory/products.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mod01/SearchInventory/src/main/java/com/pluralsight/StoreInventoryReaderApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mod01/SearchInventoryMap/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mod01/SearchInventoryMap/src/main/java/com/pluralsight/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mod01/SearchInventoryMap/src/main/java/com/pluralsight/StoreApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week3/src/main/java/com/pluralsight/Flower.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week3/src/main/java/com/pluralsight/FlowerShop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Neighborhood-Library" beforeDir="false" afterPath="$PROJECT_DIR$/../Neighborhood-Library" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mod01/SearchInventory/src/main/java/com/pluralsight/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mod01/SearchInventory/src/main/java/com/pluralsight/Item.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,33 +21,34 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "putney20"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;putney20&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/putney20/java-development.git",
-    "accountId": "ac5b55b1-8bd5-4d29-ae53-3c90b7cbc5a1"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/putney20/java-development.git&quot;,
+    &quot;accountId&quot;: &quot;ac5b55b1-8bd5-4d29-ae53-3c90b7cbc5a1&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2fSTFtnp7fl33RjWxLvBqqqYIKn" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/putne/Pluralsight/java-development/workbook-3&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

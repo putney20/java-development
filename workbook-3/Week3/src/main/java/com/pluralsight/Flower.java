@@ -1,13 +1,23 @@
 package com.pluralsight;
 
-public class Item {
+public class Flower {
     private int id;
     private String name;
-    private double price;
-    public Item(int id, String name, double price) {
+    private float price;
+
+    public Flower(int id, String name, float price) {
         this.id = id;
         this.name = name;
         this.price = price;
+    }
+
+    @Override
+    public String toString() {
+        return "Flower{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", price=" + price +
+                '}';
     }
 
     public int getId() {
@@ -26,11 +36,12 @@ public class Item {
         this.name = name;
     }
 
-    public double getPrice() {
+    public float getPrice() {
         return price;
     }
 
-    public void setPrice(double price) {
+    public void setPrice(float price) {
         this.price = price;
     }
 }
+
