@@ -4,6 +4,8 @@ public class Room {
     private int numberOfBeds;
     private double price;
     private boolean isDirty;
+    //private boolean isOccupied;
+    //private boolean isAvailable;
 
     public Room(boolean isDirty, double price, int numberOfBeds) {
         this.isDirty = isDirty;
@@ -44,7 +46,9 @@ public class Room {
         return isDirty && !isAvailable();
     }
 
-    public boolean isClean() {
-        return!isDirty;
+    public void checkIn() {
+        return isOccupied();
     }
+
+
 }

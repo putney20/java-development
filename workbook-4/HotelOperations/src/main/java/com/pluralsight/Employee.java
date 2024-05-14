@@ -1,11 +1,16 @@
 package com.pluralsight;
 
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+
 public class Employee {
     private String name;
     private int employeeId;
     private String department;
     private double payRate;
     private double hoursWorked;
+    private double punchInTime;
+    private double punchOutTime;
 
     public Employee(String name, int employeeId, String department, double payRate, double hoursWorked) {
         this.name = name;
@@ -65,19 +70,34 @@ public class Employee {
     }
 
     public double getRegularHours() {
-        if (hoursWorked <= 40) {
-            hoursWorked = getRegularHours();
+        if (hoursWorked == 40) {
+            return 40;
         }
-        return hoursWorked;
+        return 0;
     }
 
     public double getOvertimeHours() {
-        if (hoursWorked > 40) {
-            hoursWorked -= 40;
-            hoursWorked = getOvertimeHours();
+        if (hoursWorked>40) {
+            return hoursWorked - 40;
         }
-        return hoursWorked;
+        return 0;
     }
+
+    public void punchIn(double time) {
+    punchInTime=time;
+    }
+
+    public void punchOut(double timeOut) {
+    punchOutTime=timeOut;
+    hoursWorked += (punchOutTime - punchInTime);
+    }
+
+    public void punchIn(){
+
+    }
+
+
+
 
 
 }
