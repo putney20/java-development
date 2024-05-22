@@ -14,6 +14,8 @@ public class PersonDriver {
         persons.add(new Person("Johnny", "Appleseed", 18 ));
 
         Collections.sort(persons);
-        System.out.println(persons);
+        for (Person p : persons) {
+            System.out.println(p.getFirstName() + " " + p.getLastName() + " " + p.getAge());
+        }
     }
 }
